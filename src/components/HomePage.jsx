@@ -107,7 +107,7 @@ const HomePage = ({ setFile, setAudioStream }) => {
           <input
             onChange={(e) => setFile(e.target.files[0])}
             type="file"
-            accept=".mp3, .wav, "
+            accept=".mp3, .wav,.webm "
             className="hidden"
           />
         </label>{" "}
